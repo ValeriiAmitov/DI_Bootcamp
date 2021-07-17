@@ -1,0 +1,29 @@
+.yellow {
+    background-color: yellow;
+}
+.markers {
+    margin-left: 65px;
+}
+img {
+    border: 10px solid orange;
+    
+}
+.fig {
+    text-align: center;
+}
+.dline {
+    line-height: 2em;
+}
+.red {
+    text-align: center;
+    color: red;
+    border: 3px solid red;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+table {
+    border-collapse: separate;
+}
+th,td {
+    border: 2px solid gray;
+}
