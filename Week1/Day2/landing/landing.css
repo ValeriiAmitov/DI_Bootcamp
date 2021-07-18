@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  color:#fcc632;
+  line-height: 1.6;
+}
+
+#showcase{
+  background-image: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: cover;
+  height: 100vh;
+}
+
+.boot_strap {
+  text-align: start;
+  font-size: 150%;
+  margin-left: 7vw;
+  margin-top: 7vw;
+}
+
+.text {
+  float: center;
+  font-size: 150%;
+}
+
+.sign_in {
+float: right;
+margin-top: 3vh;
+margin-right: 4vw;
+padding: 8px 17px;
+text-align: center;
+border-radius: 2px;
+font-size: 1rem;
+font-weight: bolder;
+}
