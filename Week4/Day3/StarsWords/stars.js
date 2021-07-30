@@ -12,4 +12,4 @@ console.log("*".repeat(longestWord.length+2));
 for (i=0; i<words.length;i++){
     console.log("* " + words[i]+ (" ".repeat(longestWord.length-(words[i].length)))+ "*");
 }
-console.log("*".repeat(longestWords.length+2));
+console.log("*".repeat(longestWord.length+2));
