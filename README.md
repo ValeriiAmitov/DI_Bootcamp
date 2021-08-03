@@ -1,7 +1,8 @@
-Developers Institute
+**Developers Institute**
 ---------------------
 Full Stack Python bootcamp
-*HTML
-*CSS
-*Javascript
-*DOM
+
+* HTML
+* CSS
+* Javascript
+* DOM
