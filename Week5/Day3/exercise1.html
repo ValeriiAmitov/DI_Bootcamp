@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class work, exercise 2</title>
+</head>
+<body>
+  <script>
+    let counter = 10;
+    let div = document.createElement('div');
+    document.body.appendChild(div);
+    div.style.background = "red";
+    function banner() { 
+        if(counter === 0) {
+            clearInterval(id)
+            div.textContent = 'Done'
+            return;
+        }
+      div.textContent = 'The sales end in ' +  counter + 'sec !';
+      counter--;
+    }
+    let id = setInterval(banner, 1000);
+  </script>
+</body>
+</html>
