@@ -1,11 +1,11 @@
 var sentence = ("The chicken is not that bad, I like it");
-var wordNot = sentence.substring(15, 18);
-var wordBad = sentence.substring(24, 27);
-let str = sentence.indexOf(wordNot);
-if(str > -1){
-    sentence = ("The chicken is good, I like it");
+var wordNot = sentence.indexOf("not");
+var wordBad = sentence.indexOf("bad");
+
+if (sentence.includes("bad") && sentence.includes("not") && wordBad > wordNot) {
+    var str = sentence.substring(wordNot,wordBad+3);
+    console.log(sentence.replace(str, "good"));
+}
+else {
     console.log(sentence);
-   
-} else {
-    console.log(sentnce);
 }
