@@ -5,5 +5,5 @@ Full Stack Python bootcamp
 * HTML
 * CSS
 * JavaScript
-* DOM
+* Bootstrap
 * Python 3
