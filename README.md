@@ -7,3 +7,4 @@ Full Stack Python bootcamp
 * JavaScript
 * Bootstrap
 * Python 3
+* Flask
