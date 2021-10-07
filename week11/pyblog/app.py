@@ -1,14 +1,15 @@
-from flask import Flask, render_template
+import flask
 
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
-users = ['Valerii']
+@app.route("/exercises")
+def products_page():
+    exercises_content = open('exercises.md', 'r').read()
+    return flask.render_template_string(exercises_content)
 
+@app.route("/chapter")
+def main_page():
+    chapter_content = open('chapter.md', 'r').read()
+    return flask.render_template_string(chapter_content)
 
-@app.route('/')
-def blog_users():
-    return render_template('homepage.html', blog_users=users)
-
-
-if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+app.run(debug=True, port=8080)
