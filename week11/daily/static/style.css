@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(176, 219, 159);
+    color: rgb(27, 75, 206);
+    list-style-type: square;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8;
+}
