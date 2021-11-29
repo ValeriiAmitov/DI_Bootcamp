@@ -1,6 +1,6 @@
 **Developers Institute**
 ---------------------
-Full Stack Python bootcamp
+Full Stack Web Development, Python and JavaScript program
 
 * HTML
 * CSS
@@ -8,3 +8,4 @@ Full Stack Python bootcamp
 * Bootstrap
 * Python 3
 * Flask
+* SQL
